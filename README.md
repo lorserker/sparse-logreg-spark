@@ -1,6 +1,6 @@
 # Lessons Learned while Implementing a Sparse Logistic Regression Algorithm in Apache Spark
 
-This repository contains the code examples for the [Spark Summit EU 2017 talk](https://spark-summit.org/eu-2017/events/lessons-learned-while-implementing-a-sparse-logistic-regression-algorithm-in-apache-spark/)
+This repository contains the code examples for the [Spark Summit EU 2017 talk](https://spark-summit.org/eu-2017/events/lessons-learned-while-implementing-a-sparse-logistic-regression-algorithm-in-apache-spark/) and [slides](https://github.com/lorserker/sparse-logreg-spark/blob/master/slides/Sparksummit17Dali.pdf)
 
 For the experiments this [dataset](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html#avazu) was used. (the `avazu-site.tr.bz2` file)
 
