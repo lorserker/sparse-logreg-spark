@@ -35,4 +35,11 @@ Also uses `AggregateGradientDescent` and the experiment runs in the job `me.lora
 `me.lorand.slogreg.optimize.Adam` extends `AggregateGradientDescent`, and the experiment is run in
 `me.lorand.slogreg.jobs.MomentumJob`
 
+##### Time per iteration
+
+Measured on an AWS EMR cluster of 5 m4.2xlarge nodes
+
+![time per iteration](https://github.com/lorserker/sparse-logreg-spark/blob/master/img/time_per_iteration.png)
+
+The initial version is almost 4 minutes, the best version is half a second.
 
